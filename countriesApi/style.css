@@ -1,25 +1,55 @@
-*{
-    
-    border: 1px solid red;
+*{ 
+    margin: 0;
+    padding: 0;
+    background-color: #666666;
+    box-sizing: border-box;
 }
 
-body{
+
+.container{
+  max-width: 90vw;
+  display: grid;
+  grid-template-columns:25% 25% 25%;
+  grid-column-gap: 1vw;
+  border: 1px solid yellow;
+  justify-content:center;
+  margin: 50px auto;
+  
+}
+#country-card{
+  padding: 10px 0px;
+  margin-top:20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* body{
     background-color: #666666;
     margin: 0;
     padding: 0;
     
-}
-#countries-container{
+} */
+
+/* #countries-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
+} */
 
-.country-card{
-    display: flex;
-    flex-direction: column;
-
-
-}
+/* .country-card{
+    display: flex; 
+     flex-direction: column;
+} */

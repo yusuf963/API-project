@@ -7,7 +7,10 @@
   <title>Animated Navigation</title>
   <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="quoteGenerator.css">
+  <link rel="stylesheet" href="./Quote-Generator/quoteGenerator.css">
+  <!-- project 2 -->
+  <!-- <link rel="stylesheet" href="./countriesApi/style.css">
+  <link rel="stylesheet" href="./countriesApi/style.css"> -->
 </head>
 
 <body>
@@ -42,19 +45,32 @@
   </section>
   <section id="projects">
     <h1>These Are My Results</h1>
-    <div class="container">
-      <div class="text-container">
-        <h2>ewgegregregreg</h2>
+    <div id='qoute-project'>
+      <div class="container">
+        <div class="text-container">
+          <h2>ewgegregregreg</h2>
+        </div>
+        <div class="author-container">
+          <h4>gregre</h4>
+        </div>
+        <div class='button-container'>
+          <button type="button">get quote</button>
+          <button type="tweet">Tweet me</button>
+        </div>
+        <div id="loader" class="loader"></div>
       </div>
-      <div class="author-container">
-        <h4>gregre</h4>
-      </div>
-      <div class='button-container'>
-        <button type="button">get quote</button>
-        <button type="tweet">Tweet me</button>
-      </div>
-      <div id="loader" class="loader"></div>
     </div>
+    <div class="project2">
+      <div id="countries-project" class='container'>
+        <h3 id='country-name'></h3>
+        <h4 id='native-name'></h4>
+        <h4 id='country-capital'></h4>
+        <h5 id='country-borders'></h5>
+        <img id='flag-img' src='' width='50px' height='50px' alt='country Flag'>
+      </div>
+    </div>
+
+
   </section>
   <section id="contact">
     <h1>Available Anytime</h1>
@@ -62,7 +78,8 @@
 
   <!-- Script -->
   <script src="app.js"></script>
-  <script src="quoteGenerator.js"></script>
+  <script src="./Quote-Generator/quoteGenerator.js"></script>
+  <!-- <script src="./countriesApi/countrapp.js"></script> -->
 
 </body>
 
